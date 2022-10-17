@@ -1,0 +1,12 @@
+{
+    "server": {
+      "project": "silverbow-parking-test.api.transform.civicplus.com",
+      "cors": true,
+      "routes": [
+        {
+            "route": "/vehicle-database",
+            "module": "./src/routes/vehicle-information.js"
+        }
+      ]
+    }
+  }
